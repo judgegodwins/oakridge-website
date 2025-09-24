@@ -3,7 +3,7 @@ import { Heading3, Para, SPara } from "./typography";
 
 export default function EventCard() {
   return (
-    <div className="flex flex-col w-[407px] h-[535px] bg-white border border-solid border-grey-400">
+    <div className="flex flex-col w-full lg:w-[407px] min-h-[535px] bg-white border border-solid border-grey-400">
       <div className="relative w-full h-[226px]">
         <Image src="/eventcard.png" alt="event" fill className="object-cover" />
       </div>

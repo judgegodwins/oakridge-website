@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${barlow.variable} ${fraunces.variable} ${barlow.className} overflow-x-hidden antialiased`}
+        className={`${barlow.variable} ${fraunces.variable} ${barlow.className} overflow-x-hidden antialiased bg-white`}
       >
         {children}
       </body>

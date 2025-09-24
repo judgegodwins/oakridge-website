@@ -1,3 +1,19 @@
+export function Title({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <h2
+      className={`font-semibold text-[40px] lg:text-[64px] leading-[130%] lg:leading-[120%] font-serif ${className || ''}`}
+    >
+      {children}
+    </h2>
+  );
+}
+
 export function Heading1({
   children,
   className,
@@ -8,6 +24,22 @@ export function Heading1({
   return (
     <h2
       className={`font-semibold text-[40px] leading-[130%] font-serif ${className || ''}`}
+    >
+      {children}
+    </h2>
+  );
+}
+
+export function Heading2({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <h2
+      className={`font-semibold text-[32px] leading-[130%] font-serif ${className || ''}`}
     >
       {children}
     </h2>
@@ -30,6 +62,23 @@ export function Heading3({
   );
 }
 
+export function Heading4({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) {
+  return (
+    <p
+      className={`font-semibold text-xl leading-[140%] font-serif ${className || ''}`}
+    >
+      {children}
+    </p>
+  );
+}
+
+
 
 export function BigPara({
   children,
@@ -47,6 +96,8 @@ export function BigPara({
   );
 }
 
+export const paraClassName = (extra: string = '') => `font-medium text-base leading-[150%] ${extra}`;
+
 export function Para({
   children,
   className,
@@ -56,7 +107,7 @@ export function Para({
 }) {
   return (
     <p
-      className={`font-medium text-base leading-[150%] ${className || ''}`}
+      className={paraClassName(className)}
     >
       {children}
     </p>

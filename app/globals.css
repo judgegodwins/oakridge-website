@@ -10,6 +10,7 @@
   --color-c-red: #C05746;
   --font-sans: var(--font-barlow);
   --font-serif: var(--font-fraunces);
+  --color-grey-200: #F7F8FA;
   --color-grey-300: #E6E7EB;
   --color-grey-400: #CED1DB;
   --color-grey-500: #A6AABA;
@@ -31,4 +32,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center -120px;
+}
+
+.card1 {
+  background: linear-gradient(180deg, rgba(35, 40, 57, 0) 0%, #232839 57.23%);
 }

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facilities</title>
+  <style>
+    body {
+      font-family: "Georgia", serif;
+      background: #fff;
+      color: #111d36;
+      padding: 2rem;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 2rem;
+      line-height: 1.3;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .card {
+      background: #f2f2f2;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      overflow: hidden;
+      text-align: center;
+      position: relative;
+    }
+
+    .card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      display: block;
+    }
+
+    .icon {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      width: 30px;
+      height: 30px;
+      background: #eee;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+    }
+
+    .label {
+      background: #fff;
+      padding: 0.75rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>World-class facilities to help you succeed</h2>
+  
+  <div class="grid">
+    <div class="card">
+      <div class="icon">📚</div>
+      <img src="https://via.placeholder.com/200x150" alt="e-library">
+      <div class="label">e-library</div>
+    </div>
+    <div class="card">
+      <div class="icon">📚</div>
+      <img src="https://via.placeholder.com/200x150" alt="e-library">
+      <div class="label">e-library</div>
+    </div>
+    <div class="card">
+      <div class="icon">📚</div>
+      <img src="https://via.placeholder.com/200x150" alt="e-library">
+      <div class="label">e-library</div>
+    </div>
+    <div class="card">
+      <div class="icon">📚</div>
+      <img src="https://via.placeholder.com/200x150" alt="e-library">
+      <div class="label">e-library</div>
+    </div>
+  </div>
+</body>
+</html>
