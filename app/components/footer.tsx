@@ -8,24 +8,24 @@ export default function Footer() {
       <div className="container mx-auto pt-20 pb-10 lg:py-30! px-4.5">
         <div className="flex justify-center items-center flex-col w-full border-b border-grey-700 pb-20">
           <Heading1 className="text-white text-center text-[32px]! lg:text-[40px]! max-w-[626px]">
-            Stay up-to-date with what&apos;s happening around the College
+            Stay up-to-date with what&apos;s happening around the school.
           </Heading1>
           <NewsletterInput className="mt-10 max-w-full" />
         </div>
         <div className="mt-20">
           <div className="flex flex-col items-start lg:flex-row justify-between lg:items-stretch gap-10">
-            <div>
+            <div className="flex flex-col items-center">
               <Image
-                src="/oakridge.png"
-                alt="Next.js logo"
+                src="/florence.png"
+                alt="Florence Memorial College badge"
                 width={80}
                 height={80}
                 priority
               />
               <p className="font-serif text-white font-semibold text-base leading-[100%] text-center mt-2">
-                Oakridge
+                Florence Memorial
                 <br />
-                Academy
+                College
               </p>
               <p className="text-xs leading-[100%] text-center text-grey-300 font-medium mt-1">
                 Since 2000

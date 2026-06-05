@@ -26,12 +26,12 @@ export default function Home() {
               priority
             />
             <p className="uppercase text-grey-800 font-semibold text-base leading-none">
-              oakridge academy
+              florence memorial college
             </p>
           </div>
 
           <div>
-            <div className="w-fit relative">
+            <div className="w-fit relative mt-7 lg:mt-0">
               <Image
                 src="/hero_crown.svg"
                 alt="school building icon"
@@ -47,7 +47,7 @@ export default function Home() {
                 width={26.11}
                 height={31.78}
                 priority
-                className="lg:hidden absolute ml-[18px] -mt-[16px]"
+                className="lg:hidden absolute ml-6 -mt-2.5 lg:ml-4.5 lg:-mt-4"
               />
               <h1 className="font-semibold text-[40px] lg:text-[64px] text-grey-900 leading-[130%] lg:leading-[120%] text-center font-serif">
                 Shaping the <br className="inline lg:hidden" /> learners
@@ -183,7 +183,7 @@ export default function Home() {
           <div className="absolute w-full h-[57.23%] -z-50">
             <div className="relative w-full h-full lg:h-full -z-50">
               <Image
-                src="/card.jpg"
+                src="/pic3.jpg"
                 alt="students sitted in a classroom smiling"
                 fill
                 className="object-cover h-auto -z-50"
@@ -194,9 +194,9 @@ export default function Home() {
 
           <div className="absolute bottom-0 flex gap-10 flex-col items-center justify-between w-full py-15 lg:py-18.5">
             <Heading1 className="px-4 text-center text-white text-2xl! leading-[140%]! lg:text-[40px]! lg:leading-[130%]! lg: max-w-[896px]">
-              Oakridge Academy offers programs that will help support and
-              integrate newcomers and immigrant families toward realizing their
-              vision and the Canadian Dream
+              Since 2000, Florence Memorial College has provided quality
+              education while instilling discipline and nurturing successful
+              future leaders.
             </Heading1>
             <Link href="/enrollment">
               <Button>Enroll Now</Button>

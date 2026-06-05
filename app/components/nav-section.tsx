@@ -128,8 +128,8 @@ export function TopNav({
     <div className="container mx-auto py-4.5 px-4.5 flex justify-between">
       <Link href="/" className="hidden lg:block">
         <Image
-          src="/oakridge.png"
-          alt="Oakridge Academy logo"
+          src="/florence.png"
+          alt="Florence Memorial College logo"
           width={80}
           height={80}
           priority
