@@ -139,7 +139,7 @@ export function TopNav({
 
       <Link href="/" className="lg:hidden">
         <Image
-          src="/oakridge.png"
+          src="/florence.png"
           alt="Oakridge Academy logo"
           width={64}
           height={64}
