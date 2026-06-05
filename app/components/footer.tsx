@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
         <div className="mt-20">
           <div className="flex flex-col items-start lg:flex-row justify-between lg:items-stretch gap-10">
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-start lg:items-center">
               <Image
                 src="/florence.png"
                 alt="Florence Memorial College badge"
@@ -22,12 +22,12 @@ export default function Footer() {
                 height={80}
                 priority
               />
-              <p className="font-serif text-white font-semibold text-base leading-[100%] text-center mt-2">
+              <p className="font-serif lg:text-center text-white font-semibold text-base leading-[100%] mt-2">
                 Florence Memorial
                 <br />
                 College
               </p>
-              <p className="text-xs leading-[100%] text-center text-grey-300 font-medium mt-1">
+              <p className="text-xs lg:text-center leading-[100%] text-grey-300 font-medium mt-1">
                 Since 2000
               </p>
             </div>
