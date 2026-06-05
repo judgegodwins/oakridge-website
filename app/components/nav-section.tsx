@@ -70,8 +70,8 @@ export default function NavSection({ onClose }: { onClose?: () => void }) {
 
             <div>
               <Image
-                src="/oakridge.png"
-                alt="Oakridge Academy logo"
+                src="/florence.png"
+                alt="Florence Memorial College logo"
                 width={80}
                 height={80}
                 priority
