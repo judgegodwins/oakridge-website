@@ -332,7 +332,7 @@ export default function EnrollmentForm() {
                         }
                       : undefined,
                 })}
-                helperText="You will be contacted with this email."
+                helperText="You may be contacted with this email."
                 error={errors[p.field]?.email?.message}
               />
 

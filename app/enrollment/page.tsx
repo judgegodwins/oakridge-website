@@ -28,9 +28,7 @@ export default function Enroll() {
       <div className="container mx-auto px-4.5 mt-10 mb-30">
         <Heading1 className="mb-6">Enrollment</Heading1>
         <BigPara className="text-grey-700">
-          Digital Enrollment is coming soon. In the mean time, you can visit the
-          school at 50c Int&apos;l Airport Road, Rukpokwu, Port Harcourt or call{" "}
-          <a href="tel:+2348038954818">08038954818</a>
+          Fill in the application form below and submit. 
         </BigPara>
 
         <EnrollmentForm />
