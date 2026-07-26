@@ -22,7 +22,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en-GB">
       <body
         className={`${barlow.variable} ${fraunces.variable} ${barlow.className} overflow-x-hidden antialiased bg-white`}
       >

@@ -1,11 +1,25 @@
 "use client";
-import { BigPara, Heading1, Para } from "../components/typography";
+import {
+  BigPara,
+  Heading1,
+  Heading3,
+  Heading4,
+  Para,
+  SPara,
+} from "../components/typography";
 import { useState } from "react";
 import NavSection, { TopNav } from "../components/nav-section";
 import Footer from "../components/footer";
+import { Input } from "../components/input";
+import SelectInput from "../components/select-input";
+import DatePicker from "../components/DatePicker";
+import PassportUpload from "../components/passport-upload";
+import Button from "../components/button";
+import EnrollmentForm from "../components/EnrollmentForm";
 
 export default function Enroll() {
   const [navOpen, setNavOpen] = useState(false);
+  
   return (
     <>
       {navOpen && <NavSection onClose={() => setNavOpen(false)} />}
@@ -18,6 +32,8 @@ export default function Enroll() {
           school at 50c Int&apos;l Airport Road, Rukpokwu, Port Harcourt or call{" "}
           <a href="tel:+2348038954818">08038954818</a>
         </BigPara>
+
+        <EnrollmentForm />
       </div>
 
       <Footer />
