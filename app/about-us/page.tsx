@@ -77,25 +77,17 @@ export default function AboutUs() {
       </div>
       <div className="mt-20 lg:mt-4 w-full container mx-auto mb-30 px-4.5">
         <Heading2 className="text-grey-900 mb-10 lg:text-[40px]! lg:leading-[130%]!">
-          Our History
+          Our Story
         </Heading2>
         <div className="columns-1 lg:columns-2 gap-20 mt-6 mb-10 lg:my-10! w-full">
-          <Para className="text-grey-700">
-            One morning, when Gregor Samsa woke from troubled dreams, he found
-            himself transformed in his bed into a horrible vermin. He lay on his
-            armour-like back, and if he lifted his head a little he could see
-            his brown belly, slightly domed and divided by arches into stiff
-            sections. The bedding was hardly able to cover it and seemed ready
-            to slide off any moment. His many legs, pitifully thin compared with
-            the size of the rest of him, waved about helplessly as he looked.
-            &quot;What&apos;s happened to me?&quot; he thought. It wasn&apos;t a
-            dream. His room, a proper human room although a little too small,
-            lay peacefully between its four familiar walls. A collection of
-            textile samples lay spread out on the table – Samsa was a travelling
-            salesman – and above it there hung a picture that he had recently
-            cut out of an illustrated magazine and housed in a nice, gilded
-            frame. It showed a lady…
-          </Para>
+          <div className="text-grey-700 space-y-4">
+
+<Para> Founded in <span className="font-bold">2000</span>, Florence Memorial College was established with a clear vision: to build a school where <span className="font-bold">discipline</span> and the <span className="font-bold">pursuit of excellence</span> form the foundation of every student&apos;s education. </Para>
+<Para>From its inception, the College has remained committed to nurturing young minds through high academic standards, strong moral values, and a culture of responsibility. We believe that true education goes beyond the classroom—it is about shaping character, inspiring confidence, and preparing students to become responsible leaders and lifelong learners. </Para>
+<Para>Over the years, Florence Memorial College has proudly produced graduates who have distinguished themselves academically and professionally. Our alumni continue to excel in higher education and various fields, reflecting the quality of education and values instilled during their time with us.</Para>
+<Para>Today, we continue to build on our rich heritage by providing a supportive learning environment where every student is encouraged to discover their potential, embrace excellence, and make a positive impact on society. As we look to the future, our commitment remains unchanged: to raise disciplined, confident, and outstanding individuals who are equipped to succeed in an ever-changing world.</Para>
+
+          </div>
         </div>
         <div className="relative w-full h-[439px] bg-[#D9D9D9] rounded-lg">
           <Image
@@ -105,7 +97,7 @@ export default function AboutUs() {
             className="object-cover rounded-lg"
           />
         </div>
-        <div className="my-30 w-full">
+        <div className="my-30 w-full hidden">
           <Heading2 className="text-grey-900 mb-10 lg:text-[40px]! lg:leading-[130%]!">
             Principal’s message
           </Heading2>
